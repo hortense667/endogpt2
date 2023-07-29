@@ -29,7 +29,7 @@ def main():
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    st.title("endoGPT2 ver.0.1")
+    st.title("endoGPT2 ver.0.09")
     st.markdown(
     """
      [@hortense667]((https://twitter.com/hortense667)) / 2023/07/29 『近代プログラマの夕』（1987～1995）や『先見日記』（2002～2005）などが読み込ませてあります。はげしく混乱することがあります。(c) 2023 Hortense S. Endo
