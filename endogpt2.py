@@ -19,7 +19,7 @@ def do_question():
         st.session_state.question_input = ""
 
         #質問する
-        text = str(st.session_state.chat_engine.chat(str(question)))
+        text = str(st.session_state.chat_engine.chat("日本語で答えてください。"+str(question)))
         response = re.sub(r'^\n','', text)
         #回答をメッセージに追加
         st.session_state.messages.append({'role': 'assistant', 'content': response})
